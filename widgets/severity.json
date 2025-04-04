@@ -1,1 +1,1 @@
-[]
+[{"uid":"e0f911936b5c1117","name":"login with empty fields","time":{"start":1743776300389,"stop":1743776302156,"duration":1767},"status":"passed","severity":"normal"},{"uid":"e14a220b0c7d0f5a","name":"login with invalid credentials","time":{"start":1743776302263,"stop":1743776304457,"duration":2194},"status":"passed","severity":"normal"},{"uid":"a464fbfa162c6929","name":"login with valid credentials","time":{"start":1743776298180,"stop":1743776299568,"duration":1388},"status":"failed","severity":"normal"}]

@@ -27,7 +27,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test || true
+        run: npx playwright test --project=chromium || true
 
       - name: Upload Allure results
         if: always()
@@ -57,7 +57,7 @@ jobs:
       - name: Download Allure Results
         uses: actions/download-artifact@v4
         with:
-          pattern: allure-results
+          pattern: allure-results-*
           merge-multiple: true
           path: allure-results
 

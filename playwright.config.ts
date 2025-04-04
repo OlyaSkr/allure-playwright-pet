@@ -21,7 +21,7 @@ export default defineConfig({
       username: process.env.LOGIN_USERNAME || '',
       password: process.env.LOGIN_PASSWORD || '',
     },
-    video: 'retain-on-failure',
+    video: 'off',
     screenshot: { mode: 'on', fullPage: true },
     bypassCSP: true,
   },

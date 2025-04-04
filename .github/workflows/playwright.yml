@@ -30,7 +30,7 @@ jobs:
         env:
           LOGIN_USERNAME: ${{ secrets.LOGIN_USERNAME }}
           LOGIN_PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
-        run: npx playwright test tests/specs/login.spec.ts --project=chromium || true
+        run: npx playwright test || true
 
       - name: Upload Allure results
         if: always()

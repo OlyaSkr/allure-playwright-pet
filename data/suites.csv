@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1984","login with invalid credentials","chromium","Fri Apr 04 14:27:22 GMT 2025","passed","Fri Apr 04 14:27:24 GMT 2025","Login tests","specs/login.spec.ts","",""
-"","1578","login with empty fields","chromium","Fri Apr 04 14:27:20 GMT 2025","passed","Fri Apr 04 14:27:21 GMT 2025","Login tests","specs/login.spec.ts","",""
-"","1303","login with valid credentials","chromium","Fri Apr 04 14:27:18 GMT 2025","failed","Fri Apr 04 14:27:19 GMT 2025","Login tests","specs/login.spec.ts","",""
+"","909","login with empty fields","chromium","Fri Apr 04 14:36:18 GMT 2025","passed","Fri Apr 04 14:36:19 GMT 2025","Login tests","specs/login.spec.ts","",""
+"","2198","login with valid credentials","chromium","Fri Apr 04 14:36:10 GMT 2025","passed","Fri Apr 04 14:36:12 GMT 2025","Login tests","specs/login.spec.ts","",""
+"","1350","login with invalid credentials","chromium","Fri Apr 04 14:36:19 GMT 2025","passed","Fri Apr 04 14:36:20 GMT 2025","Login tests","specs/login.spec.ts","",""

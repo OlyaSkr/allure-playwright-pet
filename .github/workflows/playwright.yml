@@ -26,7 +26,15 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
+      - name: Set environment variables
+        run: |
+          echo "LOGIN=${{ secrets.LOGIN }}" >> $GITHUB_ENV
+          echo "PASSWORD=${{ secrets.PASSWORD }}" >> $GITHUB_ENV
+
       - name: Run Playwright tests
+        env:
+          LOGIN: ${{ secrets.LOGIN }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         run: npx playwright test tests/specs/login.spec.ts --project=chromium || true
 
       - name: Upload Allure results

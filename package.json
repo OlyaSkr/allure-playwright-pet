@@ -1,0 +1,53 @@
+{
+  "name": "allure-playwright-pet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "allure-js-commons": "^3.2.1",
+    "allure-playwright": "^3.2.1",
+    "charenc": "^0.0.2",
+    "crypt": "^0.0.2",
+    "dotenv": "^16.4.7",
+    "is-buffer": "^1.1.6",
+    "md5": "^2.3.0",
+    "playwright": "^1.51.1",
+    "playwright-core": "^1.51.1",
+    "undici-types": "^6.20.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "allure-commandline": "^2.33.0"
+  },
+  "scripts": {
+    "test:all:headless": "npx playwright test",
+    "test:all:headed": "npx playwright test --headed",
+    "test:chrome:headed": "npx playwright test --project=chromium --headed",
+    "test:chrome:headless": "npx playwright test --project=chromium",
+    "test:firefox:headed": "npx playwright test --project=firefox --headed",
+    "test:firefox:headless": "npx playwright test --project=firefox",
+    "test:webkit:headed": "npx playwright test --project=webkit --headed",
+    "test:webkit:headless": "npx playwright test --project=webkit",
+    "test:login:chrome:headed": "npx playwright test tests/specs/login.spec.ts --project=chromium --headed",
+    "test:all:login:headless": "npx playwright test tests/login.spec.ts",
+    "test:all:addemployee:headless": "npx playwright test tests/addEmployee.spec.ts",
+    "allure:generate": "npx allure generate allure-results --clean",
+    "allure:open": "npx allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlyaSkr/allure-playwright-pet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlyaSkr/allure-playwright-pet/issues"
+  },
+  "homepage": "https://github.com/OlyaSkr/allure-playwright-pet#readme"
+}

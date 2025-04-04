@@ -1,0 +1,20 @@
+{
+  "urlTitle": "OrangeHRM",
+  "endpoints": {
+    "loginPage": "/web/index.php/auth/login"
+  },
+  "sidebarMenuLabels": {
+    "pimSidebarItem": "PIM"
+  },
+  "topbarMenuLabels": {
+    "dashboardTitle": "Dashboard",
+    "pimTitle": "PIM"
+  },
+  "messages": {
+    "loginErrors": {
+      "fieldsRequired": "Required",
+      "invalidCredentials": "Invalid credentials"
+    },
+    "successCreateUserMessage": "SuccessSuccessfully Saved"
+  }
+}
